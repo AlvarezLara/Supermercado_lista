@@ -1,0 +1,87 @@
+{
+    "supermercados": [
+      {
+        "name": "Alcampo",
+        "address":{
+          "street": "Gran via 18",
+          "zipCode":36201,
+          "city":"Vigo"
+        },
+        "geolocalization": {
+          "lat": 40.123456,
+          "long": -3.654321
+        },
+        "products": [
+          {
+            "name": "Yerba mate",
+            "hasOferta": false,
+            "validFrom": "2023-05-18",
+            "validTo": "2023-05-25",
+            "stock": 5,
+            "price": 5.00,
+            "acquired": false
+          },
+          {
+            "name": "Leche",
+            "hasOferta": true,
+            "validFrom": "2023-05-20",
+            "validTo": "2023-06-20",
+            "stock": 10,
+            "price": 1.99,
+            "acquired": false
+          },
+          {
+            "name": "Aceite",
+            "hasOferta": true,
+            "validFrom": "2023-05-23",
+            "validTo": "2023-05-30",
+            "stock": 50,
+            "price": 2.50,
+            "acquired": true
+          }
+        ]
+      },
+      {
+        "name": "Mercadona",
+        "address":{
+          "street": "Principe 100",
+          "zipCode":36201,
+          "city":"Vigo"
+        },
+        "geolocalization": {
+          "lat": 40.123433,
+          "long": -3.6764321
+        },
+        "products": [
+          {
+            "name": "Tortilla",
+            "hasOferta": false,
+            "validFrom": "2023-06-02",
+            "validTo": "2023-06-15",
+            "stock": 5,
+            "price": 3.00,
+            "acquired": false
+          },
+          {
+            "name": "Vino",
+            "hasOferta": true,
+            "validFrom": "2023-05-27",
+            "validTo": "2023-07-20",
+            "stock": 8,
+            "price": 8.00,
+            "acquired": false
+          },
+          {
+            "name": "Arroz",
+            "hasOferta": true,
+            "validFrom": "2023-05-14",
+            "validTo": "2023-05-30",
+            "stock": 70,
+            "price": 1.50,
+            "acquired": true
+          }
+        ]
+      }
+    ]
+  }
+  
